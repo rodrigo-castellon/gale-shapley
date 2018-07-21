@@ -1,7 +1,7 @@
 set.seed(3283270)
 
 # Change this here to the path to helper.R
-source("/Users/rodrigo.castellon/Desktop/gale_shapley/helper.R")
+source(".../gale_shapley/helper.R")
 
 num_students = 3
 num_schools = 3
