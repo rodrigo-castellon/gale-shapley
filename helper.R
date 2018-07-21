@@ -1,14 +1,3 @@
-gen_random_preferences = function(n=3, num_samples=3) {
-  samples = list(c())
-  for (j in 1:num_samples) {
-    preferences = sample.int(n)
-    samples[[j]] = preferences
-  }
-  data_frame = data.frame(samples[1:length(samples)])
-  colnames(data_frame) = 1:length(colnames(data_frame))
-  return(data_frame)
-}
-
 random_pref = function(n=3, num_samples=3) {
   samples = c()
   for (i in 1:num_samples) {
